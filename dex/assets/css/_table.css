@@ -1,0 +1,74 @@
+.table-responsive {
+  @apply block w-full overflow-x-auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table {
+  @apply w-full;
+}
+
+.table thead {
+  @apply bg-qwerty-shade2;
+}
+
+.table th {
+  @apply text-qwerty-white text-xs font-normal align-middle leading-tight bg-transparent border-none select-none whitespace-nowrap px-3 py-2;
+}
+
+.table td {
+  @apply text-qwerty-white text-sm font-normal leading-tight bg-transparent border-none select-none align-middle whitespace-nowrap p-4;
+}
+
+.table td.no-padding {
+  @apply px-0 py-0;
+}
+
+.table tbody tr {
+  @apply bg-qwerty-shade2 border-t border-qwerty-shade3;
+}
+
+.table tbody tr:first-of-type {
+  @apply rounded-t border-t-0;
+}
+
+.table tbody tr:last-of-type {
+  @apply rounded-b;
+}
+
+.table tbody tr:nth-child(even) {
+  @apply bg-qwerty-shade2;
+}
+
+.table tbody tr:hover {
+  background-color: theme('colors.qwerty.shade3') !important;
+}
+
+.table thead[xs] tr th {
+  @apply text-2xs;
+}
+
+.v-table-row {
+  @apply border border-qwerty-shade3;
+  background-color: theme('colors.qwerty.shade2');
+}
+
+.v-table-row:first-of-type {
+  @apply rounded-t;
+  @apply rounded-t border-t-0;
+}
+
+.v-table-row:last-of-type {
+  @apply rounded-b;
+}
+
+.v-table-row:nth-child(even) {
+  background-color: theme('colors.qwerty.shade2');
+}
+
+.v-table-row:hover {
+  background-color: theme('colors.qwerty.shade3') !important;
+}
+
+.table.market-data th {
+  @apply space-x-1 bg-qwerty-background;
+}

@@ -1,0 +1,26 @@
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: theme('colors.qwerty.shade2') theme('colors.qwerty.shade3');
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: theme('colors.qwerty.shade1');
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: theme('colors.qwerty.shade3');
+  border-radius: 20px;
+  border: 2px solid theme('colors.qwerty.shade3');
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+}

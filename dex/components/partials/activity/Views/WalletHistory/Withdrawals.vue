@@ -1,0 +1,65 @@
+<script lang="ts" setup>
+import { PropType } from 'vue'
+import { Status } from '@injectivelabs/utils'
+import { BridgeTransactionState } from '@injectivelabs/sdk-ui-ts'
+
+const props = defineProps({
+  status: {
+    type: Object as PropType<Status>,
+    default: () => new Status()
+  },
+
+  symbol: {
+    type: String,
+    default: ''
+  }
+})
+
+const bridgeStore = useBridgeStore()
+
+const filteredTransactions = computed(() => {
+  return bridgeStore.withdrawalTransactions.filter((transaction) => {
+    const isCompletedTransaction =
+      transaction.state === BridgeTransactionState.Completed
+
+    const isPartOfSearchFilter =
+      !props.symbol ||
+      transaction.token.symbol.toLowerCase() === props.symbol.toLowerCase()
+
+    return isPartOfSearchFilter && isCompletedTransaction
+  })
+})
+
+const sortedTransactions = computed(() =>
+  filteredTransactions.value.sort((a, b) => b.timestamp - a.timestamp)
+)
+</script>
+
+<template>
+  <AppHocLoading
+    class="h-full"
+    :status="status"
+    :loader-class="status.isLoading() ? 'relative' : ''"
+  >
+    <div class="w-full h-full">
+      <CommonTableWrapper break-md>
+        <table v-if="filteredTransactions.length > 0" class="table">
+          <PartialsActivityViewsWalletHistoryCommonTableHeader />
+          <tbody>
+            <PartialsActivityViewsWalletHistoryWithdrawal
+              v-for="(transaction, index) in sortedTransactions"
+              :key="`withdrawal-${index}-${transaction.timestamp}`"
+              :transaction="transaction"
+            />
+          </tbody>
+        </table>
+
+        <CommonEmptyList
+          v-else
+          :message="$t('walletHistory.emptyWithdrawalTransactions')"
+          class="pb-4 grow bg-qwerty-shade2"
+        />
+      </CommonTableWrapper>
+    </div>
+  </AppHocLoading>
+</template>

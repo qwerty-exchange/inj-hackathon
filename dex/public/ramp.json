@@ -1,0 +1,1498 @@
+{
+  "countries": [
+    {
+      "code": "ic",
+      "label": "Canary Islands",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "et",
+      "label": "Ethiopia",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "dk",
+      "label": "Denmark",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "gf",
+      "label": "French Guiana",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ax",
+      "label": "Åland Islands",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ag",
+      "label": "Antigua and Barbuda",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "au",
+      "label": "Australia",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "bh",
+      "label": "Bahrain",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ca",
+      "label": "Canada",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "cv",
+      "label": "Cabo Verde",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "cx",
+      "label": "Christmas Island",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "hr",
+      "label": "Croatia",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "dj",
+      "label": "Djibouti",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "dm",
+      "label": "Dominica",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "do",
+      "label": "Dominican Republic",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "eg",
+      "label": "Egypt",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "er",
+      "label": "Eritrea",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "ee",
+      "label": "Estonia",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "pf",
+      "label": "French Polynesia",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "gl",
+      "label": "Greenland",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "gp",
+      "label": "Guadeloupe",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "hk",
+      "label": "Hong Kong",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "in",
+      "label": "India",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "mk",
+      "label": "North Macedonia",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "my",
+      "label": "Malaysia",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "yt",
+      "label": "Mayotte",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "fm",
+      "label": "Micronesia",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "mc",
+      "label": "Monaco",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "me",
+      "label": "Montenegro",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "nc",
+      "label": "New Caledonia",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "nz",
+      "label": "New Zealand",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "nu",
+      "label": "Niue",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "nf",
+      "label": "Norfolk Island",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "no",
+      "label": "Norway",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "pl",
+      "label": "Poland",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "pt",
+      "label": "Portugal",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "re",
+      "label": "Réunion",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "bl",
+      "label": "Saint Barthélemy",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "sh",
+      "label": "Saint Helena",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "lc",
+      "label": "Saint Lucia",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "pm",
+      "label": "Saint Pierre and Miquelon",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "vc",
+      "label": "Saint Vincent",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "sm",
+      "label": "San Marino",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "rs",
+      "label": "Serbia",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "sx",
+      "label": "Sint Maarten",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ae",
+      "label": "United Arab Emirates",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "uy",
+      "label": "Uruguay",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "wf",
+      "label": "Wallis and Futuna",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "bw",
+      "label": "Botswana",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ao",
+      "label": "Angola",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "mz",
+      "label": "Mozambique",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "ng",
+      "label": "Nigeria",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "gh",
+      "label": "Ghana",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "gn",
+      "label": "Guinea",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "gm",
+      "label": "Gambia",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ad",
+      "label": "Andorra",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "at",
+      "label": "Austria",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "bs",
+      "label": "Bahamas",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "be",
+      "label": "Belgium",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "bz",
+      "label": "Belize",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "bj",
+      "label": "Benin",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "bq",
+      "label": "Caribbean Netherlands",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ba",
+      "label": "Bosnia and Herzegovina",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "br",
+      "label": "Brazil",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "bn",
+      "label": "Brunei",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "bf",
+      "label": "Burkina Faso",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "bi",
+      "label": "Burundi",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "cc",
+      "label": "Cocos (Keeling) Islands",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "cz",
+      "label": "Czechia",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "gq",
+      "label": "Equatorial Guinea",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "fk",
+      "label": "Falkland Island",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "fo",
+      "label": "Faroe Islands",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "fi",
+      "label": "Finland",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "ga",
+      "label": "Gabon",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "gu",
+      "label": "Guam",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "gt",
+      "label": "Guatemala",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "gy",
+      "label": "Guyana",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "hn",
+      "label": "Honduras",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "mq",
+      "label": "Martinique",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "mx",
+      "label": "Mexico",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "nr",
+      "label": "Nauru",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "nl",
+      "label": "Netherlands",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "ne",
+      "label": "Niger",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "gi",
+      "label": "Gibraltar",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "mt",
+      "label": "Malta",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "mg",
+      "label": "Madagascar",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ke",
+      "label": "Kenya",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "mr",
+      "label": "Mauritania",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "bm",
+      "label": "Bermuda",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "bt",
+      "label": "Bhutan",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "cm",
+      "label": "Cameroon",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "is",
+      "label": "Iceland",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "km",
+      "label": "Comoros",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "cd",
+      "label": "Congo (DRC)",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "cg",
+      "label": "Republic of the Congo",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "ck",
+      "label": "Cook Islands",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "cy",
+      "label": "Cyprus",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "ge",
+      "label": "Georgia",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "gr",
+      "label": "Greece",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "gd",
+      "label": "Grenada",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "hu",
+      "label": "Hungary",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "ie",
+      "label": "Ireland",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "it",
+      "label": "Italy",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "kz",
+      "label": "Kazakhstan",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ki",
+      "label": "Kiribati",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "kw",
+      "label": "Kuwait",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "la",
+      "label": "Laos",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "lv",
+      "label": "Latvia",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "li",
+      "label": "Liechtenstein",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "lt",
+      "label": "Lithuania",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "lu",
+      "label": "Luxembourg",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "mw",
+      "label": "Malawi",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "mh",
+      "label": "Marshall Islands",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "md",
+      "label": "Moldova",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "mp",
+      "label": "Northern Mariana Islands",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "pg",
+      "label": "Papua New Guinea",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "pe",
+      "label": "Peru",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ph",
+      "label": "Philippines",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ro",
+      "label": "Romania",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "mf",
+      "label": "Saint Martin",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "st",
+      "label": "São Tomé and Príncipe",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "sg",
+      "label": "Singapore",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "sk",
+      "label": "Slovakia",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "si",
+      "label": "Slovenia",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "lk",
+      "label": "Sri Lanka",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "se",
+      "label": "Sweden",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "za",
+      "label": "South Africa",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "zm",
+      "label": "Zambia",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "td",
+      "label": "Chad",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "tg",
+      "label": "Togo",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "sl",
+      "label": "Sierra Leone",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "rw",
+      "label": "Rwanda",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "al",
+      "label": "Albania",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ar",
+      "label": "Argentina",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "sb",
+      "label": "Solomon Islands",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "bg",
+      "label": "Bulgaria",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "cl",
+      "label": "Chile",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "cr",
+      "label": "Costa Rica",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "sv",
+      "label": "El Salvador",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "gg",
+      "label": "Guernsey",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ht",
+      "label": "Haiti",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "im",
+      "label": "Isle of Man",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "il",
+      "label": "Israel",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "je",
+      "label": "Jersey",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "pk",
+      "label": "Pakistan",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "ps",
+      "label": "Palestine",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "py",
+      "label": "Paraguay",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "sn",
+      "label": "Senegal",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "sr",
+      "label": "Suriname",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "sz",
+      "label": "Eswaniti",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "tj",
+      "label": "Tajikistan",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "tz",
+      "label": "Tanzania",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "th",
+      "label": "Thailand",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "tl",
+      "label": "Timor-Leste",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "to",
+      "label": "Tonga",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "tn",
+      "label": "Tunisia",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "tr",
+      "label": "Turkey",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "tm",
+      "label": "Turkmenistan",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "tc",
+      "label": "Turks and Caicos Islands",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "tv",
+      "label": "Tuvalu",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ua",
+      "label": "Ukraine",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "uz",
+      "label": "Uzbekistan",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "va",
+      "label": "Vatican",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "jm",
+      "label": "Jamaica",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "af",
+      "label": "Afghanistan",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "sa",
+      "label": "Saudi Arabia",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "jp",
+      "label": "Japan",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "us",
+      "label": "United States",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "dz",
+      "label": "Algeria",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "as",
+      "label": "American Samoa",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "fr",
+      "label": "France",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "ai",
+      "label": "Anguilla",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "eh",
+      "label": "Western Sahara",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "tf",
+      "label": "French Southern Territories",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "hm",
+      "label": "HIMI",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "am",
+      "label": "Armenia",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "aw",
+      "label": "Aruba",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "az",
+      "label": "Azerbaijan",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "bd",
+      "label": "Bangladesh",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "bb",
+      "label": "Barbados",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "bo",
+      "label": "Bolivia",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "io",
+      "label": "British Indian Ocean Territory",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "kh",
+      "label": "Cambodia",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "cf",
+      "label": "Central African Republic",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "cn",
+      "label": "China",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "co",
+      "label": "Colombia",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ci",
+      "label": "Ivory Coast",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "cu",
+      "label": "Cuba",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "ec",
+      "label": "Ecuador",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "fj",
+      "label": "Fiji",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "de",
+      "label": "Germany",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "jo",
+      "label": "Jordan",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "kg",
+      "label": "Kyrgyzstan",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "mn",
+      "label": "Mongolia",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ms",
+      "label": "Montserrat",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "na",
+      "label": "Namibia",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "pr",
+      "label": "Puerto Rico",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "qa",
+      "label": "Qatar",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "sc",
+      "label": "Seychelles",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "es",
+      "label": "Spain",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "gb",
+      "label": "United Kingdom",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "gs",
+      "label": "SGSSI",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "eu",
+      "label": "European Union",
+      "enabled": false,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "um",
+      "label": "U.S. Minor Outlying Islands",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "xk",
+      "label": "Kosovo",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "by",
+      "label": "Belarus",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "ky",
+      "label": "Cayman Islands",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "cw",
+      "label": "Curaçao",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "gw",
+      "label": "Guinea-Bissau",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "id",
+      "label": "Indonesia",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ir",
+      "label": "Iran",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "iq",
+      "label": "Iraq",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "kp",
+      "label": "North Korea",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "kr",
+      "label": "South Korea",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "lb",
+      "label": "Lebanon",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "ls",
+      "label": "Lesotho",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "lr",
+      "label": "Liberia",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "ly",
+      "label": "Libya",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "mo",
+      "label": "Macao",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "mv",
+      "label": "Maldives",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ml",
+      "label": "Mali",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "mu",
+      "label": "Mauritius",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ma",
+      "label": "Morocco",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "mm",
+      "label": "Myanmar",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "np",
+      "label": "Nepal",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "ni",
+      "label": "Nicaragua",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "om",
+      "label": "Oman",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "pw",
+      "label": "Palau",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "pa",
+      "label": "Panama",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "pn",
+      "label": "Pitcairn",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ru",
+      "label": "Russia",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "kn",
+      "label": "Saint Kitts and Nevis",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ws",
+      "label": "Samoa",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "so",
+      "label": "Somalia",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "ss",
+      "label": "South Sudan",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "sd",
+      "label": "Sudan",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "ch",
+      "label": "Switzerland",
+      "enabled": true,
+      "paymentProviders": ["ramp-network", "kado"]
+    },
+    {
+      "code": "sy",
+      "label": "Syria",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "tw",
+      "label": "Taiwan",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "tk",
+      "label": "Tokelau",
+      "enabled": true,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "tt",
+      "label": "Trinidad and Tobago",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ug",
+      "label": "Uganda",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "vu",
+      "label": "Vanuatu",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ve",
+      "label": "Venezuela",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "vn",
+      "label": "Vietnam",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "vg",
+      "label": "Virgin Islands",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "vi",
+      "label": "Virgin Islands (U.S.)",
+      "enabled": false,
+      "paymentProviders": ["kado"]
+    },
+    {
+      "code": "ye",
+      "label": "Yemen",
+      "enabled": false,
+      "paymentProviders": []
+    },
+    {
+      "code": "zw",
+      "label": "Zimbabwe",
+      "enabled": false,
+      "paymentProviders": []
+    }
+  ]
+}
